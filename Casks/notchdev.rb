@@ -2,8 +2,7 @@ cask "notchdev" do
   version :latest
   sha256 :no_check
 
-  url "https://api.notchdev.diegomp.dev/api/dl",
-      verified: "api.notchdev.diegomp.dev/"
+  url "https://api.notchdev.diegomp.dev/api/dl"
   name "NotchDev"
   desc "Dev HUD for the MacBook notch: Claude Code, dev servers, Git and CI"
   homepage "https://notchdev.diegomp.dev/"
